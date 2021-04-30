@@ -3,9 +3,9 @@ DELETE FROM properties;
 DELETE FROM reservations;
 DELETE FROM property_reviews;
 
-INSERT INTO users VALUES(1,'name1','email1@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users VALUES(2,'name2','email2@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users VALUES(3,'name3','email3@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+INSERT INTO users VALUES(1,'name1','email1@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users VALUES(2,'name2','email2@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users VALUES(3,'name3','email3@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 INSERT INTO users VALUES(5,'name5','email5@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 INSERT INTO properties VALUES(1,1,'title1','description1','thumbnail_photo_url1','cover_photo_url1',2,3,3,1,'USA','BLACKHOMB STREET','VANCOUVER','BC','V9AS9A',TRUE);
 INSERT INTO properties VALUES(2,2,'title2','description2','thumbnail_photo_url2','cover_photo_url2',2,3,3,1,'USA','BLACKHOMB STREET','VANCOUVER','BC','V9AS9A',TRUE);

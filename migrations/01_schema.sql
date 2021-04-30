@@ -14,7 +14,7 @@ CREATE TABLE users(
 );
 
 CREATE TABLE properties(
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   owner_id INTEGER,
   title VARCHAR(255),
   description TEXT,
@@ -33,7 +33,7 @@ CREATE TABLE properties(
 );
 
 CREATE TABLE reservations(
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   start_date DATE,
   end_date DATE,
   property_id INTEGER,
@@ -42,7 +42,7 @@ CREATE TABLE reservations(
 
   
 CREATE TABLE property_reviews(
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   guest_id INTEGER,
   property_id INTEGER,
   reservation_id INTEGER,
